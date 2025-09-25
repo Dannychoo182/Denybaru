@@ -21,12 +21,15 @@
         git commit -m "massage" = membuat commit ke git atau menambahkan fill secara pasti
         git reset               = membatalkan file yang sudah di add
         git rm nama file        = untuk menghapus file
-        
+        git restore             = untuk mengembalikan perubahan file ke posisi semula sebelum di add atau commit
+        git reset --hard e952008(nama hash) = kembali paksa ke commit sebelumnya tergantung hash yang dicopy atau di pilih
+
         observe
 
         git status              = mengecek git apakah sudah ok
         git diff                = mengecek perubahan apa saja yang sudah terjadi
         git log                 = mengecek apakah semua sudah commit atau masih ada yang kurang
+        git log --oneline       = mengecek perubahan dengan lebih mudah dan rapi
 
         git sync
 
@@ -45,6 +48,7 @@
         git merge               = untuk menggabungkan branch dan semua file yang sudah pernah di buatgit
         git tag                 = untuk membuat tag di github/  dan juga untuk mengecek tag ada apa tidak
                                   caranya = git tag -a "nama tag"
+        git merge nama branch   = bisa juga untuk spesifik data                          
         
         untuk push ke github    = git push origin master --tag
         unttuk menghapus tag    = git tag -d "nama tag"  
